@@ -1,6 +1,6 @@
 import { useQuery } from "@tanstack/react-query";
-import { PokemonListItem } from "../interfaces/PokemonListItem";
 import { BASE_URL } from "../constants/url";
+import { PokemonListItem } from "../interfaces/PokemonListItem";
 
 interface Pokemon {
     pokemon: PokemonListItem;
