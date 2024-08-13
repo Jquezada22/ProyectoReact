@@ -20,5 +20,5 @@ export const TypeIcons: React.FC<TypeIconsProps> = ({ types }) => {
                 </div>
             ))}
         </div>
-    )
-}
+    );
+};

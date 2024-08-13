@@ -2,7 +2,7 @@ import React from "react";
 import { useGetPokemon } from "../../hooks/useGetPokemon";
 
 interface PokemonSpritesProps {
-    pokemonName?: string
+    pokemonName?: string;
 }
 
 export const PokemonSprites: React.FC<PokemonSpritesProps> = ({ pokemonName }) => {
