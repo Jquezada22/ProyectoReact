@@ -9,7 +9,7 @@ import { PokemonSprites } from "../PokemonSprites/PokemonSprites";
 import { TypeIcons } from "../shared/TypeIcons/TypeIcons";
 
 export const PokemonInfo = () => {
-    const { pokemonName } = useParams()
+    const { pokemonName } = useParams();
     const { pokemonData } = useGetPokemon(pokemonName);
     const mainType = useMemo(() => pokemonData && getMainPokemonType(pokemonData), [pokemonData]);
 
