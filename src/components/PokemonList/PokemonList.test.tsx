@@ -28,13 +28,13 @@ describe("PokemonList", () => {
 
     it("should call the goToNextPage function when the next button is clicked", () => {
         const { getByText } = renderWithProviders(<PokemonList />);
-        getByText("Siguiente").click();
+        getByText("Next").click();
         expect(useGetPokemonList().goToNextPage).toHaveBeenCalledTimes(1);
     });
 
     it("should call the goToPreviousPage function when the previous button is clicked", () => {
         const { getByText } = renderWithProviders(<PokemonList />);
-        getByText("Anterior").click();
+        getByText("Previous").click();
         expect(useGetPokemonList().goToPreviousPage).toHaveBeenCalledTimes(1);
     });
 })
