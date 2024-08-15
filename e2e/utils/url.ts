@@ -1,0 +1,1 @@
+export const url = process.env.NODE_ENV === "production" ? "https://proyecto-react-cyan.vercel.app/" : "http://localhost:8080/"

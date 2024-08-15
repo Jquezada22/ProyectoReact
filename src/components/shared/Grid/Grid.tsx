@@ -14,11 +14,11 @@ export const Grid: React.FC<GridProps> = ({ children, goToPreviousPage, goToNext
         <div className="flex justify-center mt-4 gap-5">
             {goToPreviousPage &&
                 <button onClick={goToPreviousPage}
-                className="bg-red-700 hover:bg-red-500 w-20 h-10 rounded-lg">Anterior</button>
+                className="bg-red-700 hover:bg-red-500 w-20 h-10 rounded-lg">Previous</button>
             }
             {goToNextPage &&
                 <button onClick={goToNextPage}
-                className="bg-blue-600 hover:bg-blue-400 w-20 h-10 rounded-lg">Siguiente</button>
+                className="bg-blue-600 hover:bg-blue-400 w-20 h-10 rounded-lg">Next</button>
             }
         </div>
     </div>
